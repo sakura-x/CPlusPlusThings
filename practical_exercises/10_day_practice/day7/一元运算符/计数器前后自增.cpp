@@ -26,7 +26,7 @@ Counter operator--(Counter &c){
     return c;
 }
 Counter operator--(Counter &c,int){
-    Counter t=*this;
+    Counter t= c;
     c.n--;
     return t;
 }
